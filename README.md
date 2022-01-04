@@ -1,0 +1,2 @@
+# KAMUwiki
+WIKI for KAMU
