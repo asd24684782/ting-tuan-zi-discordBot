@@ -1,1 +1,3 @@
 env/discord_bot/
+conf/
+src/__pycache__/
