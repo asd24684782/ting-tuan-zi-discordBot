@@ -15,7 +15,7 @@ source https://discordpy.readthedocs.io/en/stable/discord.html
 
 2. Go to the “OAuth2” tab.
 
-3. How the OAuth2 page should look like.  
+3. OAuth2 page look like.  
 ![](https://discordpy.readthedocs.io/en/stable/_images/discord_oauth2.png)
 4. Tick the “bot” checkbox under “scopes”.  
 ![](https://discordpy.readthedocs.io/en/stable/_images/discord_oauth2_scope.png)
