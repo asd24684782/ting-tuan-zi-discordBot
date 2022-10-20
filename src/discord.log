@@ -1,0 +1,139 @@
+[2022-10-20 10:28:15] [INFO    ] discord.client: logging in using static token
+[2022-10-20 10:28:16] [INFO    ] discord.gateway: Shard ID None has connected to Gateway (Session ID: 1802872dc1009e976330f1eb7b845e16).
+[2022-10-20 10:44:27] [DEBUG   ] discord.client: on_ready has successfully been registered as an event
+[2022-10-20 10:44:27] [DEBUG   ] discord.client: on_message has successfully been registered as an event
+[2022-10-20 10:44:27] [INFO    ] discord.client: logging in using static token
+[2022-10-20 10:44:29] [INFO    ] discord.gateway: Shard ID None has connected to Gateway (Session ID: bb78e1cf76d941fc0d0abc7cc2023c2f).
+[10:49:10] [DEBUG   ] discord.client: on_ready has successfully been registered as an event
+[10:49:10] [DEBUG   ] discord.client: on_message has successfully been registered as an event
+[10:49:10] [INFO    ] discord.client: logging in using static token
+[10:49:11] [INFO    ] discord.gateway: Shard ID None has connected to Gateway (Session ID: 2755938b1e29a6cfa87200de3210e806).
+[2022-10-20 10:49:30] [DEBUG] discord.client: on_ready has successfully been registered as an event
+[2022-10-20 10:49:30] [DEBUG] discord.client: on_message has successfully been registered as an event
+[2022-10-20 10:49:30] [INFO] discord.client: logging in using static token
+[2022-10-20 10:49:31] [INFO] discord.gateway: Shard ID None has connected to Gateway (Session ID: eb55e909ed0614938ccc40d4304e035e).
+[2022-10-20 10:50:22] [DEBUG   ] discord.client: on_ready has successfully been registered as an event
+[2022-10-20 10:50:22] [DEBUG   ] discord.client: on_message has successfully been registered as an event
+[2022-10-20 10:50:22] [INFO    ] discord.client: logging in using static token
+[2022-10-20 10:50:24] [INFO    ] discord.gateway: Shard ID None has connected to Gateway (Session ID: f57c7e3ee66718d3ee2dd4515f740942).
+[2022-10-20 10:56:53] [INFO    ] discord.gateway: Shard ID None has successfully RESUMED session f57c7e3ee66718d3ee2dd4515f740942.
+[2022-10-20 12:25:12] [WARNING ] discord.client: PyNaCl is not installed, voice will NOT be supported
+[2022-10-20 12:25:12] [INFO    ] discord.client: logging in using static token
+[2022-10-20 12:25:33] [WARNING ] discord.client: PyNaCl is not installed, voice will NOT be supported
+[2022-10-20 12:25:33] [INFO    ] discord.client: logging in using static token
+[2022-10-20 12:25:34] [INFO    ] discord.gateway: Shard ID None has connected to Gateway (Session ID: e0491cfc2b036305bd14133b6fd96282).
+[2022-10-20 12:36:22] [WARNING ] discord.client: PyNaCl is not installed, voice will NOT be supported
+[2022-10-20 12:36:31] [WARNING ] discord.client: PyNaCl is not installed, voice will NOT be supported
+[2022-10-20 12:39:20] [WARNING ] discord.client: PyNaCl is not installed, voice will NOT be supported
+[2022-10-20 12:39:39] [WARNING ] discord.client: PyNaCl is not installed, voice will NOT be supported
+[2022-10-20 12:39:39] [INFO    ] discord.client: logging in using static token
+[2022-10-20 12:39:41] [INFO    ] discord.gateway: Shard ID None has connected to Gateway (Session ID: f2b4b65248a5a5d7525806058070599e).
+[2022-10-20 12:40:03] [ERROR   ] discord.ext.commands.bot: Ignoring exception in command None
+discord.ext.commands.errors.CommandNotFound: Command "123" is not found
+[2022-10-20 15:05:52] [WARNING ] discord.client: PyNaCl is not installed, voice will NOT be supported
+[2022-10-20 15:05:52] [INFO    ] discord.client: logging in using static token
+[2022-10-20 15:06:04] [WARNING ] discord.client: PyNaCl is not installed, voice will NOT be supported
+[2022-10-20 15:06:04] [INFO    ] discord.client: logging in using static token
+[2022-10-20 15:06:48] [WARNING ] discord.client: PyNaCl is not installed, voice will NOT be supported
+[2022-10-20 15:06:48] [INFO    ] discord.client: logging in using static token
+[2022-10-20 15:07:31] [WARNING ] discord.client: PyNaCl is not installed, voice will NOT be supported
+[2022-10-20 15:07:31] [INFO    ] discord.client: logging in using static token
+[2022-10-20 15:07:32] [INFO    ] discord.gateway: Shard ID None has connected to Gateway (Session ID: a99689d78442ffc82546eb204eaed3b3).
+[2022-10-20 15:12:44] [WARNING ] discord.client: PyNaCl is not installed, voice will NOT be supported
+[2022-10-20 15:12:44] [INFO    ] discord.client: logging in using static token
+[2022-10-20 15:12:45] [INFO    ] discord.gateway: Shard ID None has connected to Gateway (Session ID: b7dda02d33c694af610dfaeaa177738b).
+[2022-10-20 15:19:10] [WARNING ] discord.client: PyNaCl is not installed, voice will NOT be supported
+[2022-10-20 15:19:10] [INFO    ] discord.client: logging in using static token
+[2022-10-20 15:19:12] [INFO    ] discord.gateway: Shard ID None has connected to Gateway (Session ID: eaaf85781f4e68d6bcad4513288efe3b).
+[2022-10-20 15:35:46] [WARNING ] discord.client: PyNaCl is not installed, voice will NOT be supported
+[2022-10-20 15:35:46] [INFO    ] discord.client: logging in using static token
+[2022-10-20 15:35:47] [INFO    ] discord.gateway: Shard ID None has connected to Gateway (Session ID: df7d6f881addfc675ad91a42929315eb).
+[2022-10-20 15:40:58] [INFO    ] discord.client: logging in using static token
+[2022-10-20 15:41:00] [INFO    ] discord.gateway: Shard ID None has connected to Gateway (Session ID: 4d14c0de00611a007dbe0269bcb3f7d9).
+[2022-10-20 15:45:17] [INFO    ] discord.client: logging in using static token
+[2022-10-20 15:45:19] [INFO    ] discord.gateway: Shard ID None has connected to Gateway (Session ID: ef163ba3b086b00f39d7675cde117f7a).
+[2022-10-20 15:46:02] [INFO    ] discord.client: logging in using static token
+[2022-10-20 15:46:03] [INFO    ] discord: set up hook
+[2022-10-20 15:46:03] [INFO    ] discord.gateway: Shard ID None has connected to Gateway (Session ID: 4b0a5342ada89f89707c527efccc41ef).
+[2022-10-20 15:46:03] [INFO    ] discord: bot connect
+[2022-10-20 15:47:20] [INFO    ] discord.client: logging in using static token
+[2022-10-20 15:47:20] [INFO    ] discord: set up hook
+[2022-10-20 15:47:21] [INFO    ] discord.gateway: Shard ID None has connected to Gateway (Session ID: cc0fb4a29b81874c386c7bcaf06ce00b).
+[2022-10-20 15:47:21] [INFO    ] discord: bot connect
+[2022-10-20 15:47:23] [INFO    ] discord: bot 卡姆百科#0368 is online
+[2022-10-20 15:48:40] [INFO    ] discord.client: logging in using static token
+[2022-10-20 15:48:41] [INFO    ] discord.Bot: set up hook
+[2022-10-20 15:48:42] [INFO    ] discord.gateway: Shard ID None has connected to Gateway (Session ID: e923e9c601e1e37e4bc8dcf5e20e1120).
+[2022-10-20 15:48:42] [INFO    ] discord.Bot: bot connect
+[2022-10-20 15:48:44] [INFO    ] discord.Bot: bot 卡姆百科#0368 is online
+[2022-10-20 15:50:25] [INFO    ] discord.client: logging in using static token
+[2022-10-20 15:50:25] [INFO    ] discord.Bot: set up hook
+[2022-10-20 15:50:26] [INFO    ] discord.gateway: Shard ID None has connected to Gateway (Session ID: 291d78fe7ef7746bc2eddd5b058e32d6).
+[2022-10-20 15:50:26] [INFO    ] discord.Bot: bot connect
+[2022-10-20 15:50:28] [INFO    ] discord.Bot: bot 卡姆百科#0368 is online
+[2022-10-20 16:16:28] [INFO    ] discord.client: logging in using static token
+[2022-10-20 16:16:28] [INFO    ] discord.Bot: set up hook
+[2022-10-20 16:16:29] [INFO    ] discord.gateway: Shard ID None has connected to Gateway (Session ID: cf8c94823a8dc6ef536a4a38b22beabd).
+[2022-10-20 16:16:29] [INFO    ] discord.Bot: bot connect
+[2022-10-20 16:16:31] [INFO    ] discord.Bot: bot 卡姆百科#0368 is online
+[2022-10-20 16:56:12] [INFO    ] discord.client: logging in using static token
+[2022-10-20 16:56:12] [INFO    ] discord.Bot: set up hook
+[2022-10-20 16:56:13] [INFO    ] discord.gateway: Shard ID None has connected to Gateway (Session ID: abb1248cec51f49b164f7e5e7ad42ab1).
+[2022-10-20 16:56:13] [INFO    ] discord.Bot: bot connect
+[2022-10-20 16:56:15] [INFO    ] discord.Bot: bot 卡姆百科#0368 is online
+[2022-10-20 16:56:31] [INFO    ] discord.client: logging in using static token
+[2022-10-20 16:56:32] [INFO    ] discord.Bot: set up hook
+[2022-10-20 16:57:20] [INFO    ] discord.client: logging in using static token
+[2022-10-20 16:57:20] [INFO    ] discord.Bot: set up hook
+[2022-10-20 16:57:21] [INFO    ] discord.gateway: Shard ID None has connected to Gateway (Session ID: d9baa224c38545ed74a2a278843c8a49).
+[2022-10-20 16:57:21] [INFO    ] discord.Bot: bot connect
+[2022-10-20 17:07:30] [INFO    ] discord.client: logging in using static token
+[2022-10-20 17:07:30] [INFO    ] discord.Bot: set up hook
+[2022-10-20 17:07:30] [INFO    ] discord.Bot: fun loaded
+[2022-10-20 17:07:31] [INFO    ] discord.gateway: Shard ID None has connected to Gateway (Session ID: a6dc776be601770bdc5bdb24f56b2b2b).
+[2022-10-20 17:07:31] [INFO    ] discord.Bot: bot connect
+[2022-10-20 17:07:33] [INFO    ] discord.Bot: bot 卡姆百科#0368 is online
+[2022-10-20 17:07:56] [INFO    ] discord.client: logging in using static token
+[2022-10-20 17:07:57] [INFO    ] discord.Bot: set up hook
+[2022-10-20 17:10:01] [INFO    ] discord.client: logging in using static token
+[2022-10-20 17:10:01] [INFO    ] discord.Bot: set up hook
+[2022-10-20 17:10:01] [INFO    ] discord.Bot: fun loaded
+[2022-10-20 17:10:02] [INFO    ] discord.gateway: Shard ID None has connected to Gateway (Session ID: 7a569d4340e4c6df0a55b79923c1e9cc).
+[2022-10-20 17:10:02] [INFO    ] discord.Bot: bot connect
+[2022-10-20 17:10:04] [INFO    ] discord.Bot: bot 卡姆百科#0368 is online
+[2022-10-20 17:16:22] [INFO    ] discord.client: logging in using static token
+[2022-10-20 17:16:22] [INFO    ] discord.Bot: set up hook
+[2022-10-20 17:16:22] [INFO    ] discord.Bot: fun loaded
+[2022-10-20 17:16:23] [INFO    ] discord.gateway: Shard ID None has connected to Gateway (Session ID: b7c55caa8b412098ad7e5e9ac848bcc5).
+[2022-10-20 17:16:23] [INFO    ] discord.Bot: bot connect
+[2022-10-20 17:16:25] [INFO    ] discord.Bot: bot 卡姆百科#0368 is online
+[2022-10-20 17:16:32] [INFO    ] discord.client: logging in using static token
+[2022-10-20 17:16:32] [INFO    ] discord.Bot: set up hook
+[2022-10-20 17:28:57] [INFO    ] discord.client: logging in using static token
+[2022-10-20 17:28:58] [INFO    ] discord.Bot: set up hook
+[2022-10-20 17:29:09] [INFO    ] discord.client: logging in using static token
+[2022-10-20 17:29:09] [INFO    ] discord.Bot: set up hook
+[2022-10-20 17:29:25] [INFO    ] discord.client: logging in using static token
+[2022-10-20 17:29:25] [INFO    ] discord.Bot: set up hook
+[2022-10-20 17:30:48] [INFO    ] discord.client: logging in using static token
+[2022-10-20 17:30:49] [INFO    ] discord.Bot: set up hook
+[2022-10-20 17:31:20] [INFO    ] discord.client: logging in using static token
+[2022-10-20 17:31:21] [INFO    ] discord.Bot: set up hook
+[2022-10-20 17:37:38] [INFO    ] discord.client: logging in using static token
+[2022-10-20 17:37:39] [INFO    ] discord.Bot: set up hook
+[2022-10-20 17:37:39] [INFO    ] discord.gateway: Shard ID None has connected to Gateway (Session ID: cf60671297586beaed5424f2626c6322).
+[2022-10-20 17:37:39] [INFO    ] discord.Bot: bot connect
+[2022-10-20 17:37:41] [INFO    ] discord.Bot: bot 卡姆百科#0368 is online
+[2022-10-20 17:38:01] [INFO    ] discord.client: logging in using static token
+[2022-10-20 17:38:02] [INFO    ] discord.Bot: set up hook
+[2022-10-20 17:38:02] [INFO    ] discord.gateway: Shard ID None has connected to Gateway (Session ID: b1485ee095a036c398d1881fe7ca38ce).
+[2022-10-20 17:38:02] [INFO    ] discord.Bot: bot connect
+[2022-10-20 17:38:04] [INFO    ] discord.Bot: bot 卡姆百科#0368 is online
+[2022-10-20 17:38:25] [INFO    ] discord.client: logging in using static token
+[2022-10-20 17:38:25] [INFO    ] discord.Bot: set up hook
+[2022-10-20 17:38:46] [INFO    ] discord.client: logging in using static token
+[2022-10-20 17:38:46] [INFO    ] discord.Bot: set up hook
+[2022-10-20 17:38:46] [INFO    ] discord.Bot: fun loaded
+[2022-10-20 17:38:47] [INFO    ] discord.gateway: Shard ID None has connected to Gateway (Session ID: 9e2a648c41d7732351b943883c394a0b).
+[2022-10-20 17:38:47] [INFO    ] discord.Bot: bot connect
+[2022-10-20 17:38:49] [INFO    ] discord.Bot: bot 卡姆百科#0368 is online
