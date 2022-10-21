@@ -27,3 +27,201 @@
 [2022-10-20 18:15:50] [INFO    ] discord.Bot: wait 0.5s
 [2022-10-20 18:15:50] [INFO    ] discord.cog.fun: fun cog ready
 [2022-10-20 18:15:50] [INFO    ] discord.Bot: bot 卡姆百科#0368 is online
+[2022-10-20 20:08:39] [INFO    ] discord.Bot: bot disconnect
+[2022-10-20 20:08:40] [INFO    ] discord.gateway: Shard ID None has successfully RESUMED session 0d1ae870d85d848eb414c576e27bd4bd.
+[2022-10-20 21:12:25] [INFO    ] discord.Bot: bot disconnect
+[2022-10-20 21:12:26] [INFO    ] discord.gateway: Shard ID None has successfully RESUMED session 0d1ae870d85d848eb414c576e27bd4bd.
+[2022-10-20 22:36:34] [INFO    ] discord.Bot: bot disconnect
+[2022-10-20 22:36:35] [INFO    ] discord.gateway: Shard ID None has successfully RESUMED session 0d1ae870d85d848eb414c576e27bd4bd.
+[2022-10-20 23:42:11] [INFO    ] discord.Bot: bot disconnect
+[2022-10-20 23:42:12] [INFO    ] discord.gateway: Shard ID None has successfully RESUMED session 0d1ae870d85d848eb414c576e27bd4bd.
+[2022-10-21 01:52:36] [INFO    ] discord.Bot: bot disconnect
+[2022-10-21 01:52:37] [INFO    ] discord.gateway: Shard ID None has successfully RESUMED session 0d1ae870d85d848eb414c576e27bd4bd.
+[2022-10-21 03:07:21] [INFO    ] discord.Bot: bot disconnect
+[2022-10-21 03:07:22] [INFO    ] discord.gateway: Shard ID None has successfully RESUMED session 0d1ae870d85d848eb414c576e27bd4bd.
+[2022-10-21 03:36:50] [INFO    ] discord.Bot: bot disconnect
+[2022-10-21 03:36:51] [INFO    ] discord.gateway: Shard ID None has successfully RESUMED session 0d1ae870d85d848eb414c576e27bd4bd.
+[2022-10-21 07:06:35] [INFO    ] discord.Bot: bot disconnect
+[2022-10-21 07:06:36] [INFO    ] discord.gateway: Shard ID None session has been invalidated.
+[2022-10-21 07:06:36] [INFO    ] discord.Bot: bot disconnect
+[2022-10-21 07:06:43] [INFO    ] discord.gateway: Shard ID None has connected to Gateway (Session ID: dc60f4362f770e35565313eb8a601eac).
+[2022-10-21 07:06:43] [INFO    ] discord.Bot: bot connect
+[2022-10-21 07:06:45] [INFO    ] discord.Bot: bot reconnected
+[2022-10-21 07:25:26] [INFO    ] discord.Bot: bot disconnect
+[2022-10-21 07:25:27] [INFO    ] discord.gateway: Shard ID None has successfully RESUMED session dc60f4362f770e35565313eb8a601eac.
+[2022-10-21 10:28:45] [INFO    ] discord.Bot: bot disconnect
+[2022-10-21 10:28:46] [INFO    ] discord.gateway: Shard ID None has successfully RESUMED session dc60f4362f770e35565313eb8a601eac.
+[2022-10-21 10:59:01] [INFO    ] discord.Bot: bot disconnect
+[2022-10-21 10:59:02] [INFO    ] discord.gateway: Shard ID None has successfully RESUMED session dc60f4362f770e35565313eb8a601eac.
+[2022-10-21 11:30:48] [INFO    ] discord.client: logging in using static token
+[2022-10-21 11:30:49] [INFO    ] discord.Bot: set up hook
+[2022-10-21 11:30:49] [INFO    ] discord.Bot: fun cog load
+[2022-10-21 11:30:49] [INFO    ] discord.gateway: Shard ID None has connected to Gateway (Session ID: 154098217c85f446bb23df94d91d8a6a).
+[2022-10-21 11:30:49] [INFO    ] discord.Bot: bot connect
+[2022-10-21 11:30:51] [INFO    ] discord.Bot: bot 卡姆百科#0368 is online
+[2022-10-21 11:30:51] [INFO    ] discord.cog.fun: fun cog ready
+[2022-10-21 11:33:36] [INFO    ] discord.Bot: run
+[2022-10-21 11:33:36] [INFO    ] discord.client: logging in using static token
+[2022-10-21 11:33:37] [INFO    ] discord.Bot: set up hook
+[2022-10-21 11:33:37] [INFO    ] discord.Bot: fun cog load
+[2022-10-21 11:33:38] [INFO    ] discord.gateway: Shard ID None has connected to Gateway (Session ID: 64235142537ca908471401f8884626eb).
+[2022-10-21 11:33:38] [INFO    ] discord.Bot: bot connect
+[2022-10-21 11:33:40] [INFO    ] discord.Bot: bot 卡姆百科#0368 is online
+[2022-10-21 11:33:40] [INFO    ] discord.cog.fun: fun cog ready
+[2022-10-21 11:35:46] [INFO    ] discord.Bot: run
+[2022-10-21 11:35:46] [INFO    ] discord.client: logging in using static token
+[2022-10-21 11:35:47] [INFO    ] discord.Bot: set up hook
+[2022-10-21 11:35:47] [INFO    ] discord.gateway: Shard ID None has connected to Gateway (Session ID: 1b0bfd8fc959d4c42206f6c199759fc1).
+[2022-10-21 11:35:47] [INFO    ] discord.Bot: bot connect
+[2022-10-21 11:35:49] [INFO    ] discord.Bot: fun cog load
+[2022-10-21 11:35:49] [INFO    ] discord.Bot: bot 卡姆百科#0368 is online
+[2022-10-21 11:36:30] [INFO    ] discord.Bot: run
+[2022-10-21 11:36:30] [INFO    ] discord.client: logging in using static token
+[2022-10-21 11:36:30] [INFO    ] discord.Bot: set up hook
+[2022-10-21 11:36:30] [INFO    ] discord.Bot: fun cog load
+[2022-10-21 11:36:31] [INFO    ] discord.gateway: Shard ID None has connected to Gateway (Session ID: f85c34f2d7aeec8803d6e161561d8f53).
+[2022-10-21 11:36:31] [INFO    ] discord.Bot: bot connect
+[2022-10-21 11:36:33] [INFO    ] discord.Bot: bot 卡姆百科#0368 is online
+[2022-10-21 11:36:33] [INFO    ] discord.cog.fun: fun cog ready
+[2022-10-21 11:37:53] [INFO    ] discord.Bot: run
+[2022-10-21 11:37:53] [INFO    ] discord.client: logging in using static token
+[2022-10-21 11:37:54] [INFO    ] discord.Bot: set up hook
+[2022-10-21 11:37:54] [INFO    ] discord.Bot: fun cog load
+[2022-10-21 11:37:54] [INFO    ] discord.gateway: Shard ID None has connected to Gateway (Session ID: 4662530f128df1b2ae992baa306e56b8).
+[2022-10-21 11:37:54] [INFO    ] discord.Bot: bot connect
+[2022-10-21 11:37:56] [INFO    ] discord.Bot: bot 卡姆百科#0368 is online
+[2022-10-21 11:37:56] [INFO    ] discord.cog.fun: fun cog ready
+[2022-10-21 11:38:35] [INFO    ] discord.Bot: run
+[2022-10-21 11:38:35] [INFO    ] discord.client: logging in using static token
+[2022-10-21 11:38:36] [INFO    ] discord.Bot: set up hook
+[2022-10-21 11:38:36] [INFO    ] discord.Bot: fun cog load
+[2022-10-21 11:38:36] [INFO    ] discord.gateway: Shard ID None has connected to Gateway (Session ID: ecb8a7af8061641e2218e6494c9d5fbc).
+[2022-10-21 11:38:36] [INFO    ] discord.Bot: bot connect
+[2022-10-21 11:38:38] [INFO    ] discord.Bot: bot 卡姆百科#0368 is online
+[2022-10-21 11:38:38] [INFO    ] discord.cog.fun: fun cog ready
+[2022-10-21 11:39:43] [INFO    ] discord.Bot: run
+[2022-10-21 11:39:43] [INFO    ] discord.client: logging in using static token
+[2022-10-21 11:39:43] [INFO    ] discord.Bot: set up hook
+[2022-10-21 11:39:43] [INFO    ] discord.Bot: fun cog load
+[2022-10-21 11:39:44] [INFO    ] discord.gateway: Shard ID None has connected to Gateway (Session ID: 6ad1e44e736f63eea572565dfa9f7ab7).
+[2022-10-21 11:39:44] [INFO    ] discord.Bot: bot connect
+[2022-10-21 11:39:46] [INFO    ] discord.Bot: bot 卡姆百科#0368 is online
+[2022-10-21 11:39:46] [INFO    ] discord.cog.fun: fun cog ready
+[2022-10-21 11:40:03] [INFO    ] discord.Bot: run
+[2022-10-21 11:40:03] [INFO    ] discord.client: logging in using static token
+[2022-10-21 11:40:04] [INFO    ] discord.Bot: set up hook
+[2022-10-21 11:40:04] [INFO    ] discord.Bot: fun cog load
+[2022-10-21 11:40:05] [INFO    ] discord.gateway: Shard ID None has connected to Gateway (Session ID: e83826e4fb42a16d4b3ca0a4817fdf17).
+[2022-10-21 11:40:05] [INFO    ] discord.Bot: bot connect
+[2022-10-21 11:40:07] [INFO    ] discord.Bot: bot 卡姆百科#0368 is online
+[2022-10-21 11:40:07] [INFO    ] discord.cog.fun: fun cog ready
+[2022-10-21 11:40:35] [INFO    ] discord.Bot: run
+[2022-10-21 11:40:35] [INFO    ] discord.client: logging in using static token
+[2022-10-21 11:40:36] [INFO    ] discord.Bot: set up hook
+[2022-10-21 11:40:36] [INFO    ] discord.Bot: fun cog load
+[2022-10-21 11:40:36] [INFO    ] discord.gateway: Shard ID None has connected to Gateway (Session ID: 0037508bc8ed5b10c5d65a4ee3f96da6).
+[2022-10-21 11:40:36] [INFO    ] discord.Bot: bot connect
+[2022-10-21 11:40:38] [INFO    ] discord.Bot: bot 卡姆百科#0368 is online
+[2022-10-21 11:40:38] [INFO    ] discord.cog.fun: fun cog ready
+[2022-10-21 11:43:47] [INFO    ] discord.Bot: run
+[2022-10-21 11:43:47] [INFO    ] discord.client: logging in using static token
+[2022-10-21 11:43:48] [INFO    ] discord.Bot: set up hook
+[2022-10-21 11:49:53] [INFO    ] discord.Bot: run
+[2022-10-21 11:49:53] [INFO    ] discord.client: logging in using static token
+[2022-10-21 11:49:53] [INFO    ] discord.Bot: set up hook
+[2022-10-21 11:50:42] [INFO    ] discord.Bot: run
+[2022-10-21 11:50:42] [INFO    ] discord.client: logging in using static token
+[2022-10-21 11:50:42] [INFO    ] discord.Bot: set up hook
+[2022-10-21 12:00:44] [INFO    ] discord.Bot: run
+[2022-10-21 12:00:44] [INFO    ] discord.client: logging in using static token
+[2022-10-21 12:00:44] [INFO    ] discord.Bot: set up hook
+[2022-10-21 12:00:44] [INFO    ] discord.Bot: fun cog load
+[2022-10-21 12:00:44] [INFO    ] discord.Bot: system cog load
+[2022-10-21 12:00:45] [INFO    ] discord.gateway: Shard ID None has connected to Gateway (Session ID: 6c3d33cf1dcfda1f8d864dd8f1c53f97).
+[2022-10-21 12:00:45] [INFO    ] discord.Bot: bot connect
+[2022-10-21 12:00:47] [INFO    ] discord.Bot: bot 卡姆百科#0368 is online
+[2022-10-21 12:00:47] [INFO    ] discord.cog.fun: fun cog ready
+[2022-10-21 12:00:47] [INFO    ] discord.cog.system: System cog ready
+[2022-10-21 12:03:01] [INFO    ] discord.Bot: run
+[2022-10-21 12:03:01] [INFO    ] discord.client: logging in using static token
+[2022-10-21 12:03:01] [INFO    ] discord.Bot: set up hook
+[2022-10-21 12:03:01] [INFO    ] discord.Bot: system cog load
+[2022-10-21 12:03:02] [INFO    ] discord.gateway: Shard ID None has connected to Gateway (Session ID: f9e2452e4ffc26690c3ad9d1b3be4b80).
+[2022-10-21 12:03:02] [INFO    ] discord.Bot: bot connect
+[2022-10-21 12:03:04] [INFO    ] discord.Bot: bot 卡姆百科#0368 is online
+[2022-10-21 12:03:04] [INFO    ] discord.cog.system: [cog] System ready
+[2022-10-21 12:03:48] [INFO    ] discord.cog.system: [cog] reload system
+[2022-10-21 12:04:09] [INFO    ] discord.cog.system: [cog] unload system
+[2022-10-21 12:06:22] [INFO    ] discord.Bot: run
+[2022-10-21 12:06:22] [INFO    ] discord.client: logging in using static token
+[2022-10-21 12:06:23] [INFO    ] discord.Bot: set up hook
+[2022-10-21 12:06:23] [INFO    ] discord.Bot: system cog load
+[2022-10-21 12:06:23] [INFO    ] discord.gateway: Shard ID None has connected to Gateway (Session ID: 99333046bff07f79aa3f6b278629d214).
+[2022-10-21 12:06:23] [INFO    ] discord.Bot: bot connect
+[2022-10-21 12:06:25] [INFO    ] discord.Bot: bot 卡姆百科#0368 is online
+[2022-10-21 12:06:25] [INFO    ] discord.cog.system: [cog] System ready
+[2022-10-21 12:06:34] [INFO    ] discord.cog.system: [cog] can not load system
+[2022-10-21 12:06:57] [INFO    ] discord.cog.system: [cog] can not load system
+[2022-10-21 12:07:21] [INFO    ] discord.Bot: run
+[2022-10-21 12:07:21] [INFO    ] discord.client: logging in using static token
+[2022-10-21 12:07:21] [INFO    ] discord.Bot: set up hook
+[2022-10-21 12:07:21] [INFO    ] discord.Bot: system cog load
+[2022-10-21 12:07:22] [INFO    ] discord.gateway: Shard ID None has connected to Gateway (Session ID: 42895c0229f22bd7812c2cd57ff28fc2).
+[2022-10-21 12:07:22] [INFO    ] discord.Bot: bot connect
+[2022-10-21 12:07:24] [INFO    ] discord.Bot: bot 卡姆百科#0368 is online
+[2022-10-21 12:07:24] [INFO    ] discord.cog.system: [cog] System ready
+[2022-10-21 12:07:26] [INFO    ] discord.cog.system: [cog] can not unload system
+[2022-10-21 12:07:37] [INFO    ] discord.cog.system: [cog] can not load SYSTEM
+[2022-10-21 12:09:59] [INFO    ] discord.Bot: run
+[2022-10-21 12:09:59] [INFO    ] discord.client: logging in using static token
+[2022-10-21 12:09:59] [INFO    ] discord.Bot: set up hook
+[2022-10-21 12:09:59] [INFO    ] discord.Bot: system cog load
+[2022-10-21 12:10:00] [INFO    ] discord.gateway: Shard ID None has connected to Gateway (Session ID: 52b9dd6a9b22df0471e02c0ccd3bf42a).
+[2022-10-21 12:10:00] [INFO    ] discord.Bot: bot connect
+[2022-10-21 12:10:02] [INFO    ] discord.Bot: bot 卡姆百科#0368 is online
+[2022-10-21 12:10:02] [INFO    ] discord.cog.system: [cog] system ready
+[2022-10-21 12:19:45] [INFO    ] discord.Bot: run
+[2022-10-21 12:19:45] [INFO    ] discord.client: logging in using static token
+[2022-10-21 12:19:45] [INFO    ] discord.Bot: set up hook
+[2022-10-21 12:19:45] [INFO    ] discord.Bot: system cog load
+[2022-10-21 12:19:46] [INFO    ] discord.gateway: Shard ID None has connected to Gateway (Session ID: 2543d87e3100c0aab21f5ebf4ffb1d7e).
+[2022-10-21 12:19:46] [INFO    ] discord.Bot: bot connect
+[2022-10-21 12:19:48] [INFO    ] discord.Bot: bot 卡姆百科#0368 is online
+[2022-10-21 12:19:48] [INFO    ] discord.cog.system: [cog] system ready
+[2022-10-21 12:22:51] [INFO    ] discord.Bot: run
+[2022-10-21 12:22:51] [INFO    ] discord.client: logging in using static token
+[2022-10-21 12:22:52] [INFO    ] discord.Bot: set up hook
+[2022-10-21 12:22:52] [INFO    ] discord.Bot: [cog] system load
+[2022-10-21 12:22:53] [INFO    ] discord.gateway: Shard ID None has connected to Gateway (Session ID: b22f036e7b5a060e475cf4ade7290912).
+[2022-10-21 12:22:53] [INFO    ] discord.Bot: bot connect
+[2022-10-21 12:22:55] [INFO    ] discord.Bot: bot 卡姆百科#0368 is online
+[2022-10-21 12:22:55] [INFO    ] discord.cog.system: [cog] system ready
+[2022-10-21 12:54:29] [INFO    ] discord.Bot: run
+[2022-10-21 12:54:29] [INFO    ] discord.client: logging in using static token
+[2022-10-21 12:54:30] [INFO    ] discord.Bot: set up hook
+[2022-10-21 12:54:30] [INFO    ] discord.Bot: [cog] system load
+[2022-10-21 12:54:31] [INFO    ] discord.gateway: Shard ID None has connected to Gateway (Session ID: d3ef908c675a423a13af1dd927a0141e).
+[2022-10-21 12:54:31] [INFO    ] discord.Bot: bot connect
+[2022-10-21 12:54:33] [INFO    ] discord.Bot: bot 卡姆百科#0368 is online
+[2022-10-21 12:54:33] [INFO    ] discord.cog.system: [cog] system ready
+[2022-10-21 12:57:11] [INFO    ] discord.cog.system: [cog] reload system
+[2022-10-21 12:57:40] [INFO    ] discord.cog.system: [cog] reload system
+[2022-10-21 14:11:54] [INFO    ] discord.Bot: bot disconnect
+[2022-10-21 14:11:55] [INFO    ] discord.gateway: Shard ID None has successfully RESUMED session d3ef908c675a423a13af1dd927a0141e.
+[2022-10-21 15:09:24] [INFO    ] discord.Bot: bot disconnect
+[2022-10-21 15:09:25] [INFO    ] discord.gateway: Shard ID None has successfully RESUMED session d3ef908c675a423a13af1dd927a0141e.
+[2022-10-21 15:37:57] [INFO    ] discord.Bot: run
+[2022-10-21 15:37:57] [INFO    ] discord.client: logging in using static token
+[2022-10-21 15:37:57] [INFO    ] discord.Bot: set up hook
+[2022-10-21 15:37:57] [INFO    ] discord.Bot: [cog] festival load
+[2022-10-21 15:37:57] [INFO    ] discord.Bot: [cog] system load
+[2022-10-21 15:37:58] [INFO    ] discord.gateway: Shard ID None has connected to Gateway (Session ID: 0ad1debc999d176eb0f130519502bdd1).
+[2022-10-21 15:37:58] [INFO    ] discord.Bot: bot connect
+[2022-10-21 15:38:00] [INFO    ] discord.Bot: bot 卡姆百科#0368 is online
+[2022-10-21 15:38:00] [INFO    ] discord.cog.festival: [cog] festival ready
+[2022-10-21 15:38:00] [INFO    ] discord.cog.system: [cog] system ready
+[2022-10-21 15:38:19] [INFO    ] discord.cog.festival: [[7, 'test', 'test', 'test', ['test', 'test']], [10, 'aa', 'aa', 'aa', ['aa']], [14, 'string', 'string', 'string', ['string', 'aaa']]]
+[2022-10-21 15:39:05] [INFO    ] discord.cog.system: [cog] reload festival
+[2022-10-21 15:39:12] [INFO    ] discord.cog.festival: festival response [[7, 'test', 'test', 'test', ['test', 'test']], [10, 'aa', 'aa', 'aa', ['aa']], [14, 'string', 'string', 'string', ['string', 'aaa']]]
+[2022-10-21 18:32:25] [INFO    ] discord.Bot: bot disconnect
+[2022-10-21 18:32:27] [INFO    ] discord.gateway: Shard ID None has successfully RESUMED session 0ad1debc999d176eb0f130519502bdd1.
