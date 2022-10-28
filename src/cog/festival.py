@@ -10,10 +10,10 @@ from utills.AsyncHttpRequest import getQuery
 logger = logging.getLogger('discord.cog.festival')
 logger.setLevel(logging.INFO)
 
-async def selectFestivalByID(id):
+async def selectFestivalID(id):
     logger.debug(f'select festival {id}')
 
-    url = f"http://localhost:5000/festivals/id/{id}"
+    url = "http://localhost:5000/festivals/id/" + id
     response = await getQuery(url)
     logger.info(f'festival response {response}')
 
@@ -23,20 +23,13 @@ async def selectFestivalByID(id):
 
     id       = festival.get('id', "")
     name     = festival.get("name", "")
-    location = festival.get("location", "")
-    bands    = festival.get("bands", "")
-    free     = festival.get("free", "")
-    notes    = festival.get("notes", "")
+    pay     = festival.get("pay", "")
     area     = festival.get("area", "")
-    start    = festival.get("start", datetime.now())
-    end      = festival.get("end", datetime.now())
+    location = festival.get("location", "")
+    date     = festival.get("date", "")
+    bands    = festival.get("bands", "")
+    notes    = festival.get("notes", "")
 
-    date = f'{start} ~ {end}' if start != end else start
-    pay = '免費' if free else '要錢'
-    bandStr = ""
-    for band in bands:
-        bandStr = bandStr + str(band) + "、"
-    bandStr = bandStr[:-1]
 
     embedData = {
         "id"       : id,
@@ -45,7 +38,7 @@ async def selectFestivalByID(id):
         "area"     : area,
         "location" : location,
         "date"     : date,
-        "bands"    : bandStr,
+        "bands"    : bands,
         "notes"    : notes,
     }
 
@@ -55,6 +48,19 @@ async def selectFestivalFree():
     logger.info('select festival is free')
         
     url = f"http://localhost:5000/festivals/free"
+    response = await getQuery(url)
+    logger.info(f'festival response {response}')
+
+    code = response['code']
+    message = response['message']
+    festivals = response['festivals']
+
+    return code, message, festivals
+
+async def selectFestivalBand(band):
+    logger.info(f'select festival with {band}')
+        
+    url = "http://localhost:5000/festivals/band/" + band
     response = await getQuery(url)
     logger.info(f'festival response {response}')
 
@@ -95,12 +101,11 @@ class festival(Cog_Base):
         logger.info(f'festival response {response}')
         await ctx.send(response)
 
-        
     @command(name='fid')
     async def fid(self, ctx, id):
         logger.info(f'fid {id}')
 
-        code, message, embedData = await selectFestivalByID(id)
+        code, message, embedData = await selectFestivalID(id)
         logger.info(f'select festival {id} done, embed Data = {embedData}')
 
         if code != '00':
@@ -131,6 +136,26 @@ class festival(Cog_Base):
             embed.add_field(name=name, value=date, inline=False)
 
         await ctx.send(embed=embed)
+
+    @command(name='fband')
+    async def festivalFree(self, ctx, band):
+        logger.info('festival band')
+        code, message, festivals = await selectFestivalBand(band)
+        logger.info(f'select festival done, festivals = {festivals}')
+
+        if code != '00':
+            logger.warning(f'select festival free error {code}, {message}')
+            await ctx.send(f'Error code {code}, {message}')
+            return
+
+        embed = Embed(title=f"{band}", color=0xdd80ff)
+        for f in festivals:
+            name = str(f['id']) + '. ' + f['name']
+            date = f['date']
+            embed.add_field(name=name, value=date, inline=False)
+
+        await ctx.send(embed=embed)
+
 
     @Cog.listener()
     async def on_ready(self):
