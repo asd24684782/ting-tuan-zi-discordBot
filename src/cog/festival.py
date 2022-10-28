@@ -10,6 +10,21 @@ from utills.AsyncHttpRequest import getQuery
 logger = logging.getLogger('discord.cog.festival')
 logger.setLevel(logging.INFO)
 
+
+
+async def selectFestival30Day():
+    logger.debug(f'select festival {id}')
+
+    url = "http://localhost:5000/festivals"
+    response = await getQuery(url)
+    logger.info(f'festival response {response}')
+
+    code = response['code']
+    message = response['message']
+    festivals = response.get('festivals', {})
+
+    return code, message, festivals
+
 async def selectFestivalID(id):
     logger.debug(f'select festival {id}')
 
@@ -96,10 +111,22 @@ class festival(Cog_Base):
 
     @command(name='f')
     async def festival(self, ctx):
-        url = "http://localhost:5000/festivals"
-        response = await getQuery(url)
-        logger.info(f'festival response {response}')
-        await ctx.send(response)
+        logger.info('festivals in 30 day')
+        code, message, festivals = await selectFestival30Day()
+        logger.info(f'select festival done, {festivals}')
+
+        if code != '00':
+            logger.warning(f'select festival free error {code}, {message}')
+            await ctx.send(f'Error code {code}, {message}')
+            return
+
+        embed = Embed(title="30天內的音樂祭", color=0xdd80ff)
+        for f in festivals:
+            name = str(f['id']) + '. ' + f['name']
+            date = f['date']
+            embed.add_field(name=name, value=date, inline=False)
+
+        await ctx.send(embed=embed)
 
     @command(name='fid')
     async def fid(self, ctx, id):
@@ -118,7 +145,7 @@ class festival(Cog_Base):
 
         await ctx.send(embed=embed)
 
-    @command(name='ffree')
+    @command(name='free')
     async def festivalFree(self, ctx):
         logger.info('festival free')
         code, message, festivals = await selectFestivalFree()
@@ -138,7 +165,7 @@ class festival(Cog_Base):
         await ctx.send(embed=embed)
 
     @command(name='fband')
-    async def festivalFree(self, ctx, band):
+    async def festivalBand(self, ctx, band):
         logger.info('festival band')
         code, message, festivals = await selectFestivalBand(band)
         logger.info(f'select festival done, festivals = {festivals}')
