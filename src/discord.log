@@ -406,3 +406,18 @@
 [2022-10-28 12:51:04] [INFO    ] discord.cog.festival: select festival with 怕胖團
 [2022-10-28 12:51:06] [INFO    ] discord.cog.festival: festival response {'code': '00', 'message': 'Success', 'festivals': [{'id': 49, 'name': 'TAKAO ROCK 打狗祭', 'date': '2022-10-29 ~ 2022-10-30'}, {'id': 79, 'name': '穀稻秋聲-2022富里山谷草地音樂節', 'date': '2022-11-05 ~ 2022-11-06'}, {'id': 89, 'name': '2022街角無常音樂祭', 'date': '2022-11-12 ~ 2022-11-13'}, {'id': 147, 'name': '怕胖團PAPUN BAND《時間的奴》台中場', 'date': '2022-12-10'}, {'id': 138, 'name': '【2022烏藝祭 Oui Festival 】(延期至02/11-12)', 'date': '2023-02-11 ~ 2023-02-12'}]}
 [2022-10-28 12:51:06] [INFO    ] discord.cog.festival: select festival done, festivals = [{'id': 49, 'name': 'TAKAO ROCK 打狗祭', 'date': '2022-10-29 ~ 2022-10-30'}, {'id': 79, 'name': '穀稻秋聲-2022富里山谷草地音樂節', 'date': '2022-11-05 ~ 2022-11-06'}, {'id': 89, 'name': '2022街角無常音樂祭', 'date': '2022-11-12 ~ 2022-11-13'}, {'id': 147, 'name': '怕胖團PAPUN BAND《時間的奴》台中場', 'date': '2022-12-10'}, {'id': 138, 'name': '【2022烏藝祭 Oui Festival 】(延期至02/11-12)', 'date': '2023-02-11 ~ 2023-02-12'}]
+[2022-10-28 12:53:14] [INFO    ] discord.cog.festival: fid 1
+[2022-10-28 12:53:17] [INFO    ] discord.cog.festival: festival response {'code': '01', 'message': 'festival 1 not exist'}
+[2022-10-28 12:53:26] [INFO    ] discord.cog.festival: festival band
+[2022-10-28 12:53:26] [INFO    ] discord.cog.festival: select festival with 1
+[2022-10-28 12:53:28] [INFO    ] discord.cog.festival: festival response {'code': '01', 'message': 'festival with 1 not exist'}
+[2022-10-28 12:55:11] [INFO    ] discord.cog.system: [cog] reload festival
+[2022-10-28 12:55:15] [INFO    ] discord.cog.festival: fid 1
+[2022-10-28 12:55:17] [INFO    ] discord.cog.festival: festival response {'code': '01', 'message': 'festival 1 not exist'}
+[2022-10-28 12:55:17] [INFO    ] discord.cog.festival: select festival 1 done, embed Data = {'id': '', 'name': '', 'pay': '', 'area': '', 'location': '', 'date': '', 'bands': '', 'notes': ''}
+[2022-10-28 12:55:17] [WARNING ] discord.cog.festival: select festival 1 error 01, festival 1 not exist
+[2022-10-28 12:55:33] [INFO    ] discord.cog.festival: festival band
+[2022-10-28 12:55:33] [INFO    ] discord.cog.festival: select festival with 靈魂咆嘯
+[2022-10-28 12:55:35] [INFO    ] discord.cog.festival: festival response {'code': '01', 'message': 'festival with 靈魂咆嘯 not exist'}
+[2022-10-28 12:55:35] [INFO    ] discord.cog.festival: select festival done, festivals = {}
+[2022-10-28 12:55:35] [WARNING ] discord.cog.festival: select festival free error 01, festival with 靈魂咆嘯 not exist

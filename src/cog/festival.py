@@ -19,11 +19,11 @@ async def selectFestivalID(id):
 
     code = response['code']
     message = response['message']
-    festival = response['festival']
+    festival = response.get('festival', {})
 
     id       = festival.get('id', "")
     name     = festival.get("name", "")
-    pay     = festival.get("pay", "")
+    pay      = festival.get("pay", "")
     area     = festival.get("area", "")
     location = festival.get("location", "")
     date     = festival.get("date", "")
@@ -53,7 +53,7 @@ async def selectFestivalFree():
 
     code = response['code']
     message = response['message']
-    festivals = response['festivals']
+    festivals = response.get('festivals', {})
 
     return code, message, festivals
 
@@ -66,7 +66,7 @@ async def selectFestivalBand(band):
 
     code = response['code']
     message = response['message']
-    festivals = response['festivals']
+    festivals = response.get('festivals', {})
 
     return code, message, festivals
 
