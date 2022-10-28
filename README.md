@@ -1,4 +1,40 @@
-# KAMUwiki
+# ting tuan zi (聽團仔) discord bot
+
+## Discord Bot Cmd
+
+### select festival by id
+```
+.fid [id]
+```
+
+### select festival is free
+```
+.ffree
+```
+
+### select festival with band
+```
+.fband [band]
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Creat bot
 source https://discordpy.readthedocs.io/en/stable/discord.html
