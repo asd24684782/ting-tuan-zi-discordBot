@@ -46,8 +46,6 @@ class system(Cog_Base):
         if msg.author == self.bot.user:
             return
         
-
-
     @Cog.listener()
     async def on_ready(self):
         logger.info('[cog] system ready')
