@@ -2,6 +2,11 @@
 一個聽團仔專用的discord bot，後端API在https://github.com/asd24684782/ting-tuan-zi-api
 ## Discord Bot Cmd
 
+### select festival in 7 days
+```
+.f
+```
+
 ### select festival by id
 ```
 .fid [id]
@@ -9,7 +14,7 @@
 
 ### select festival is free
 ```
-.ffree
+.free
 ```
 
 ### select festival with band
