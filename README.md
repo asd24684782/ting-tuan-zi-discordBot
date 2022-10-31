@@ -23,24 +23,6 @@
 ```
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## Creat bot
 source https://discordpy.readthedocs.io/en/stable/discord.html
 1. go https://discord.com/developers/applications and click New application  
@@ -63,3 +45,7 @@ source https://discordpy.readthedocs.io/en/stable/discord.html
 5. Tick the permissions required for your bot to function under “Bot Permissions”.  
 ![](https://discordpy.readthedocs.io/en/stable/_images/discord_oauth2_perms.png)
 6. Now the resulting URL can be used to add your bot to a server. Copy and paste the URL into your browser, choose a server to invite the bot to, and click “Authorize”.
+7. Add new file `.env` in src/setting and add this line in file
+```
+DISCORD_TOKEN=YOUR_TOKEN
+```
