@@ -6,16 +6,17 @@ from discord import Embed
 
 from cog.Base.Cog_Base import Cog_Base
 from utills.AsyncHttpRequest import getQuery
+from setting.setting import FESTIVAL_URL
+
 
 logger = logging.getLogger('discord.cog.festival')
 logger.setLevel(logging.INFO)
 
 
-
-async def selectFestival30Day():
+async def selectFestival7Day():
     logger.debug(f'select festival {id}')
 
-    url = "http://localhost:5000/festivals"
+    url = FESTIVAL_URL
     response = await getQuery(url)
     logger.info(f'festival response {response}')
 
@@ -28,7 +29,7 @@ async def selectFestival30Day():
 async def selectFestivalID(id):
     logger.debug(f'select festival {id}')
 
-    url = "http://localhost:5000/festivals/id/" + id
+    url = FESTIVAL_URL + "/id/" + id
     response = await getQuery(url)
     logger.info(f'festival response {response}')
 
@@ -62,7 +63,7 @@ async def selectFestivalID(id):
 async def selectFestivalFree():
     logger.info('select festival is free')
         
-    url = f"http://localhost:5000/festivals/free"
+    url = FESTIVAL_URL + "/free"
     response = await getQuery(url)
     logger.info(f'festival response {response}')
 
@@ -75,7 +76,7 @@ async def selectFestivalFree():
 async def selectFestivalBand(band):
     logger.info(f'select festival with {band}')
         
-    url = "http://localhost:5000/festivals/band/" + band
+    url = FESTIVAL_URL + "/band/" + band
     response = await getQuery(url)
     logger.info(f'festival response {response}')
 
@@ -111,8 +112,8 @@ class festival(Cog_Base):
 
     @command(name='f')
     async def festival(self, ctx):
-        logger.info('festivals in 30 day')
-        code, message, festivals = await selectFestival30Day()
+        logger.info('festivals in 7 day')
+        code, message, festivals = await selectFestival7Day()
         logger.info(f'select festival done, {festivals}')
 
         if code != '00':
@@ -120,7 +121,7 @@ class festival(Cog_Base):
             await ctx.send(f'Error code {code}, {message}')
             return
 
-        embed = Embed(title="30天內的音樂祭", color=0xdd80ff)
+        embed = Embed(title="7天內的音樂活動", color=0xdd80ff)
         for f in festivals:
             name = str(f['id']) + '. ' + f['name']
             date = f['date']
@@ -182,7 +183,6 @@ class festival(Cog_Base):
             embed.add_field(name=name, value=date, inline=False)
 
         await ctx.send(embed=embed)
-
 
     @Cog.listener()
     async def on_ready(self):
