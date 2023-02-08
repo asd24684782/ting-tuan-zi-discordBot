@@ -1,4 +1,3 @@
-from datetime import datetime
 import logging
 
 from discord.ext.commands import Cog, command
@@ -25,6 +24,7 @@ async def selectFestival7Day():
     festivals = response.get('festivals', {})
 
     return code, message, festivals
+
 
 async def selectFestivalID(id):
     logger.debug(f'select festival {id}')
@@ -60,6 +60,7 @@ async def selectFestivalID(id):
 
     return code, message, embedData
 
+
 async def selectFestivalFree():
     logger.info('select festival is free')
         
@@ -73,6 +74,7 @@ async def selectFestivalFree():
 
     return code, message, festivals
 
+
 async def selectFestivalBand(band):
     logger.info(f'select festival with {band}')
         
@@ -85,6 +87,7 @@ async def selectFestivalBand(band):
     festivals = response.get('festivals', {})
 
     return code, message, festivals
+
 
 def makeDetailEmbed(embedData):
     logger.debug('make detail embed')
@@ -108,7 +111,7 @@ def makeDetailEmbed(embedData):
     return embed
 
 
-class festival(Cog_Base):
+class Festival(Cog_Base):
 
     @command(name='f')
     async def festival(self, ctx):
@@ -129,6 +132,7 @@ class festival(Cog_Base):
 
         await ctx.send(embed=embed)
 
+
     @command(name='fid')
     async def fid(self, ctx, id):
         logger.info(f'fid {id}')
@@ -145,6 +149,7 @@ class festival(Cog_Base):
         logger.info(f'make embed done {embed}')
 
         await ctx.send(embed=embed)
+
 
     @command(name='free')
     async def festivalFree(self, ctx):
@@ -165,6 +170,7 @@ class festival(Cog_Base):
 
         await ctx.send(embed=embed)
 
+
     @command(name='fband')
     async def festivalBand(self, ctx, band):
         logger.info('festival band')
@@ -184,11 +190,13 @@ class festival(Cog_Base):
 
         await ctx.send(embed=embed)
 
+
     @Cog.listener()
     async def on_ready(self):
         logger.info('[cog] festival ready')
 
+
 async def setup(bot):
-    await bot.add_cog(festival(bot))  
+    await bot.add_cog(Festival(bot))  
     
     
