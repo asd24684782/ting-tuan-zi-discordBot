@@ -18,4 +18,5 @@ formatter = logging.Formatter(
 handler.setFormatter(formatter)
 logger.addHandler(handler)
 
-bot.run()
+if __name__ == '__main__':
+    bot.run()

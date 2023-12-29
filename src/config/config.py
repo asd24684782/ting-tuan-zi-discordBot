@@ -3,6 +3,7 @@ from dotenv import load_dotenv
 import logging
 from dataclasses import dataclass, field
 from glob import glob
+from pathlib import Path
 
 logger = logging.getLogger()
 load_dotenv()
@@ -64,3 +65,7 @@ def get() -> Config:
     if not config.is_load:
         load()
     return config
+
+
+def get_project_path() -> Path:
+    return Path(__file__).parent.parent

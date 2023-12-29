@@ -1,7 +1,7 @@
 import logging
 from discord.ext.commands import Cog, command
 from cog.Base.Cog_Base import Cog_Base
-from services.vote.vote import Vote
+from services.vote import Vote
 
 logger = logging.getLogger('discord.cog.vote')
 
