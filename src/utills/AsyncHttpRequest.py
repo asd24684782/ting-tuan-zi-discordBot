@@ -9,7 +9,6 @@ import aiohttp
 
 logger = logging.getLogger()
 async def getQuery(url):
-    
     startTime = int(datetime.now().timestamp() * 1000)
     async with aiohttp.ClientSession() as session:
         async with session.get(url) as resp:

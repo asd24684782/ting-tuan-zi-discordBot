@@ -1,25 +1,23 @@
-# -*- coding: UTF-8 -*- 
+# -*- coding: UTF-8 -*-
 # Standard library imports
 import logging
-from glob import glob
-
 # Third party imports
 import discord
-from discord.ext import commands
-from discord.ext.commands import CommandNotFound
+from discord.ext.commands import CommandNotFound, Bot, when_mentioned_or
 # Local application imports
-from setting.setting import DISCORD_TOKEN, DISCORD_CHANNEL
+from config.config import get
 
 logger = logging.getLogger('discord.Bot')
-COGS = [path.split("\\")[-1][:-3] for path in glob("./cog/*.py")]
+
+config = get()
 
 
-class Bot(commands.Bot):
+class DiscordBot(Bot):
     def __init__(self):
         logger.info('Bot init')
-        self.PREFIX = commands.when_mentioned_or('.')
-        self.TOKEN = DISCORD_TOKEN
-        self.CHANNEL = DISCORD_CHANNEL
+        self.PREFIX = when_mentioned_or('.')
+        self.TOKEN = config.discord.token
+        self.CHANNEL = config.discord.channel
         self.ready = False
         super().__init__(command_prefix=self.PREFIX, intents=discord.Intents.all())
 
@@ -29,7 +27,7 @@ class Bot(commands.Bot):
 
     async def setup_hook(self):
         logger.info('set up hook')
-        for cog in COGS:
+        for cog in config.system.cogs:
             await self.load_extension(f'cog.{cog}')
             logger.info(f'[cog] {cog} load')
 
@@ -48,7 +46,7 @@ class Bot(commands.Bot):
         logger.info('bot connect')
 
     async def on_disconnect(self):
-        logger.info('bot disconnect') 
+        logger.info('bot disconnect')
 
     async def on_error(self, err, *args, **kwargs):
         if err == "on_command_error":
@@ -67,4 +65,5 @@ class Bot(commands.Bot):
         else:
             raise exception
 
-bot = Bot()
+
+bot = DiscordBot()

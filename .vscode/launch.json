@@ -1,0 +1,16 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Discord",
+            "type": "python",
+            "request": "launch",
+            "pythonPath": "${workspaceFolder}/.venv/Scripts/python.exe",
+            "cwd": "${workspaceFolder}/src",
+            "program": "main.py",
+            "console": "internalConsole",
+            "justMyCode": false,
+            "args": []
+        }
+    ]
+}

@@ -1,21 +1,20 @@
 import logging
-
 from discord.ext.commands import Cog, command
-
 from cog.Base.Cog_Base import Cog_Base
-
+from services.vote.vote import Vote
 
 logger = logging.getLogger('discord.cog.vote')
 
-class Vote(Cog_Base):
 
+class VoteCog(Cog_Base):
+    def __init__(self, bot):
+        super().__init__(bot)
+        self.vote = Vote()
 
     @Cog.listener()
     async def on_ready(self):
-        logger.info('[cog] vote ready')
+        logger.info('ready')
 
 
 async def setup(bot):
-    await bot.add_cog(Vote(bot))  
-    
-    
+    await bot.add_cog(VoteCog(bot))
