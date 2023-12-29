@@ -1,5 +1,5 @@
 # ting tuan zi (聽團仔) discord bot
-一個聽團仔專用的discord bot，後端API在https://github.com/asd24684782/ting-tuan-zi-api
+一個聽團仔專用的discord bot，但聽團仔的功能已然喪失
 ## Discord Bot Cmd
 
 ### select festival in 7 days
