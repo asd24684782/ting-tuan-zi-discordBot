@@ -5,7 +5,7 @@
             "name": "Discord",
             "type": "python",
             "request": "launch",
-            "pythonPath": "${workspaceFolder}/.venv/Scripts/python.exe",
+            "python": "${workspaceFolder}/.venv/Scripts/python.exe",
             "cwd": "${workspaceFolder}/src",
             "program": "main.py",
             "console": "internalConsole",
